@@ -1,0 +1,97 @@
+#testimonials{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+.tes_manip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.head_tes{
+    color: #F7DC4F;
+    font-size: 3rem;
+    font-weight: 800;
+    
+}
+.content_tes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cards{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 1rem;
+
+
+}
+
+
+.crd_head a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.crd_head img{
+width: 100%;
+max-width: 100%;
+height: 100%;
+position: absolute;
+
+}
+
+.crd_name{
+color: #F7DC4F;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.crd_des{
+width: 80%;
+font-size: 0.7rem;
+text-align: center;
+}
+
+.crd_test{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 25rem;
+height: 20rem;
+padding: 1rem;
+}
+
+.crd_star{
+display: flex;
+gap: 0.3rem;
+align-items: center;
+justify-content: center;
+
+}
+
+.crd_star img{
+    width: 100%;
+    max-width: 7%;
+    padding-top: 0.5rem;
+}
+

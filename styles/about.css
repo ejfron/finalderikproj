@@ -1,0 +1,27 @@
+#AboutMe{
+    width: 100%;
+    height: 100vh;
+}
+
+.section_manip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.head_sec{
+    text-align: center;
+    color: #F7DC4F;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.des_sec{
+    color: #ffffffa2;
+    width: 60%;
+    text-align: center;
+}

@@ -1,0 +1,115 @@
+#Videos{
+    position: relative;
+    height: auto;
+    width: 100%;
+    /* background-color: rgba(197, 197, 197, 0.427); */
+    
+}
+
+.banner_vid{
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-image: url(./public/assests/pic-set/My\ Logo.png);
+    position: absolute;
+    z-index: -1;
+}
+.content_vid{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.427);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.head_vid{
+    color: #F7DC4F;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.list_vid{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+
+    a{
+        text-decoration: none;
+        color: #ffffffa9;
+    }
+}
+
+.list_vid a:hover{
+    color: #F7DC4F;
+}
+
+a.active{
+    color: #F7DC4F;
+    font-weight: 700;
+    border-bottom: 3px solid #F7DC4F;
+}
+
+.vid_item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    position: relative;
+    /* background-color: #F7DC4F; */
+    padding: 1rem;
+
+    iframe{
+        width: 100%;
+        max-width: 15%;
+        height: 100%;
+        border: 5px solid #F7DC4F;
+        aspect-ratio: 9/16;
+
+        /* clip-path: polygon(0 20%, 100% 20%, 100% 80%, 0 80%); */
+    }
+}
+
+
+.vid_item .advertisement iframe:nth-child(11), .vid_item .advertisement iframe:nth-child(12){
+    aspect-ratio: 16/9;
+    width: 100%;
+    max-width: 40%;
+}
+.advertisement{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.vid_item .presentaion iframe,  .vid_item .Events iframe,  .vid_item .courses iframe{
+    aspect-ratio: 16/9;
+    width: 100%;
+    max-width: 80%;
+}
+
+.Instagram, .Events, .sales, .podcast, .courses, .presentaion{
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    position: relative;
+    /* background-color: #F7DC4F; */
+}

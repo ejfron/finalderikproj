@@ -1,0 +1,110 @@
+#lets_work{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 7rem;
+    scroll-margin-top: 7rem;
+}
+
+.let_manip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.let_head{
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 800;
+    
+}
+
+.let_head:nth-child(2){
+        margin-top: -2rem;
+    }
+
+.let_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    background-color: #F7DC4F;
+    transition: 0.5s;
+    border-radius: 10px;
+
+    a{
+        text-decoration: none;
+        color: #ffffffdc;
+        font-weight: 700;
+        text-shadow: 2px 5px 10px #1414149d;
+        cursor: pointer;
+    }
+   
+}
+
+
+.let_button:hover{
+background-color: #fad82e;
+scale: 1.05;
+}
+
+.socials{
+display: flex;
+gap: 2rem;
+
+
+
+}
+
+.fa-upwork, .fa-envelope, .fa-tiktok{
+font-size: 2rem;
+padding-bottom: 1rem;
+cursor: pointer;
+color: #fff;
+
+}
+
+.fa-envelope:hover, .fa-upwork:hover, .fa-tiktok:hover{
+color: #fad82e;
+scale: 1.1;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #ffffff41;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.query_Concern{
+    color: #ffffff80;
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #fad82e;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+}
+
